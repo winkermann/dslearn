@@ -1,0 +1,36 @@
+.main-nav {
+  display: flex;
+  min-height: 70px;
+  flex-grow: unset;
+}
+
+.nav-logo-text,
+.nav-logo-text:hover {
+  color: #00285f;
+}
+
+.main-menu {
+  font-size: 18px;
+  width: 170px;
+  justify-content: flex-end;
+}
+
+.main-menu a:first-child {
+  margin-left: 50px;
+}
+
+.main-menu a {
+  color: #00285f;
+}
+
+.main-menu a.active {
+  color: #00285f;
+  font-weight: 700;
+}
+
+/* adaptação para corrigir anomalia na margem esquerda no menu em telas pequenas */
+@media (max-width: 765px) {
+  .main-menu a:first-child {
+    margin-left: auto;
+  }
+}
