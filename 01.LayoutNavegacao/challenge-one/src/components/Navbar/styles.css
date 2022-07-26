@@ -6,7 +6,7 @@
 
 .nav-logo-text,
 .nav-logo-text:hover {
-  color: #00285f;
+  color: var(--main-color);
 }
 
 .main-menu {
@@ -20,11 +20,11 @@
 }
 
 .main-menu a {
-  color: #00285f;
+  color: var(--main-color);
 }
 
 .main-menu a.active {
-  color: #00285f;
+  color: var(--main-color);
   font-weight: 700;
 }
 

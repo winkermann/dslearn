@@ -4,6 +4,14 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+:root {
+  --main-color: #00285f;
+  --main-bg-color: #ededed;
+  --secundary-color: #585858;
+  --header-bg-color: #f78b00;
+  --emphasis-color: #fff;
+}
+
 h1,
 h2,
 h3,
@@ -17,4 +25,16 @@ h6 {
 a, a:hover {
   text-decoration: none;
   color: unset;
+}
+
+.base-card-container {
+  background-color: var(--main-color);
+  color: var(--emphasis-color);
+  border-radius: 15px;
+}
+
+.section-card-container {
+  background-color: var(--main-bg-color);
+  color: var(--secundary-color);
+  border-radius: 15px;
 }
