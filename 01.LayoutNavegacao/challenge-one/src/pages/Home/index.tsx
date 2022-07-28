@@ -1,6 +1,6 @@
 import { ReactComponent as MainImage } from '../../assets/img/car-header.svg';
 import Navbar from '../../components/Navbar';
-import Button from '../../components/Button';
+import HomeButton from '../../components/HomeButton';
 
 import './styles.css';
 
@@ -26,7 +26,7 @@ const Home = () => {
         <div className="section-card-container">
           <div className="subsection-container">
             <div>
-              <Button />
+              <HomeButton />
             </div>
             <div>
               <span>Comece agora a navegar</span>
