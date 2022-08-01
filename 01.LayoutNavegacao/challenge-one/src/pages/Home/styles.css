@@ -1,65 +1,100 @@
+.base-card-container {
+  display: flex;
+  justify-content: center;
+}
+
 .home-container {
-  padding: 30px;
-  text-align: center;
+  margin-top: 30px;
 }
 
 .home-content-container {
-  height: 580px;
-  width: 970px;
+  width: 100%;
+  height: auto;
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 .home-content-text {
-  width: 450px;
+  padding: 10px;
 }
 
 .home-content-text h1 {
-  font-size: 34px;
-}
-
-.home-content-text p {
-  font-size: 18px;
+  font-size: 20px;
+  margin-bottom: 5px;
 }
 
 .home-img-container svg {
-  padding: 20px;
-  width: 500px;
-  height: auto;
+  width: 100%;
 }
 
 .section-card-container {
   display: flex;
   align-items: center;
-  padding-left: 80px;
+  justify-content: center;
   height: 120px;
   margin-top: 20px;
 }
 
 .subsection-container {
   display: flex;
-  margin-right: 30px;
 }
 
 .subsection-container span {
-  margin-left: 20px;
-  font-size: 20px;
+  margin-left: 5px;
+  font-size: 15px;
 }
 
-/* @media (min-width: 576px) {
+@media (min-width: 576px) {
+  .home-content-container {
+    width: 535px;
+    height: 365px;
+  }
+  .home-img-container svg {
+    width: 330px;
+  }
   .home-content-text {
-    width: 400px;
+    width: 420px;
   }
   .home-content-text h1 {
-    font-size: 1.5em;
+    font-size: 30px;
   }
+  .subsection-container span {
+    margin-left: 20px;
+    font-size: 18px;
+  }
+}
 
-  .home-content-text p {
-    font-size: 1.1em;
+@media (min-width: 768px) {
+  .home-content-container {
+    width: 728px;
+    height: 475px;
   }
-  .section-card-container p {
-    font-size: 1.2em;
+  .section-card-container {
+    justify-content: flex-start;
   }
-} */
+  .subsection-container {
+    margin-left: 80px;
+  }
+}
+
+@media (min-width: 992px) {
+  .home-content-container {
+    width: 952px;
+    height: 579px;
+  }
+  .home-img-container svg {
+    width: 455px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .home-content-container {
+    width: 979px;
+    height: 365px;
+    flex-direction: row;
+    justify-content: center;
+  }
+}

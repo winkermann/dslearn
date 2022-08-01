@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <>
       <Navbar />
-      <div className="home-container">
+      <div className="home-container container">
         <div className="base-card-container">
           <div className="home-content-container">
             <div className="home-content-text">

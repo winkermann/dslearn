@@ -6,33 +6,20 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 170px;
+  padding: 0 5px;
   height: 40px;
 }
 
 .button-container p {
   margin: 0;
-  font-size: 14px;
-}
-
-/* @media (min-width: 320px) {
-    .button-container {
-        width: 90px;
-        height: 30px;
-        margin: 0;
-    }
-  .button-container p {
-    font-size: 0.7em;
-    margin: 0;
-  }
+  font-size: 12px;
 }
 
 @media (min-width: 576px) {
   .button-container {
     width: 170px;
-    height: 40px;
   }
   .button-container p {
-    font-size: 1em;
+    font-size: 14px;
   }
-} */
+}
