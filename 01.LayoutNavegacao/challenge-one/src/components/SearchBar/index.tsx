@@ -1,8 +1,8 @@
 import './styles.css';
 
-const Search = () => {
+const SearchBar = () => {
   return (
-    <div className="search-container">
+    <div className="search-container container">
       <div className="section-card-container">
         <div className="input-card-content">
           <form>
@@ -23,4 +23,4 @@ const Search = () => {
   );
 };
 
-export default Search;
+export default SearchBar;

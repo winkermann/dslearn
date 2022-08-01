@@ -1,6 +1,6 @@
 import Navbar from '../../components/Navbar';
-import Search from '../../components/Search';
-import './styles.css';
+import ProductCard from '../../components/ProductCard';
+import Search from '../../components/SearchBar';
 
 const Catalog = () => {
   return (
@@ -10,7 +10,31 @@ const Catalog = () => {
       <div className="container my-4">
         <div className="row">
           <div className="col-sm-6 col-lg-4 col-xl-3">
-            <p>INSERIR PRODUCTCARD</p>
+            <ProductCard />
+          </div>
+          <div className="col-sm-6 col-lg-4 col-xl-3">
+            <ProductCard />
+          </div>
+          <div className="col-sm-6 col-lg-4 col-xl-3">
+            <ProductCard />
+          </div>
+          <div className="col-sm-6 col-lg-4 col-xl-3">
+            <ProductCard />
+          </div>
+          <div className="col-sm-6 col-lg-4 col-xl-3">
+            <ProductCard />
+          </div>
+          <div className="col-sm-6 col-lg-4 col-xl-3">
+            <ProductCard />
+          </div>
+          <div className="col-sm-6 col-lg-4 col-xl-3">
+            <ProductCard />
+          </div>
+          <div className="col-sm-6 col-lg-4 col-xl-3">
+            <ProductCard />
+          </div>
+          <div className="col-sm-6 col-lg-4 col-xl-3">
+            <ProductCard />
           </div>
         </div>
       </div>
