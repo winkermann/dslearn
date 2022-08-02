@@ -5,7 +5,6 @@ import Search from '../../components/SearchBar';
 const Catalog = () => {
   return (
     <>
-      <Navbar />
       <Search />
       <div className="container my-4">
         <div className="row">

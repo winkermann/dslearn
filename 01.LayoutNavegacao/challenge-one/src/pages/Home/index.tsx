@@ -1,13 +1,12 @@
 import { ReactComponent as MainImage } from '../../assets/img/car-header.svg';
-import Navbar from '../../components/Navbar';
 import HomeButton from '../../components/HomeButton';
 
 import './styles.css';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
     <>
-      <Navbar />
       <div className="home-container container">
         <div className="base-card-container">
           <div className="home-content-container">
@@ -26,7 +25,9 @@ const Home = () => {
         <div className="section-card-container">
           <div className="subsection-container">
             <div>
-              <HomeButton />
+              <Link to="/catalog">
+                <HomeButton />
+              </Link>
             </div>
             <div>
               <span>Comece agora a navegar</span>
