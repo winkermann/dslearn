@@ -1,5 +1,6 @@
 import './styles.css';
 import { ReactComponent as CarCardImg } from '../../assets/img/car-card.svg';
+import SearchButton from '../SearchButton';
 
 const ProductCard = () => {
   return (
@@ -14,9 +15,7 @@ const ProductCard = () => {
             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             Cupiditate, nisi
           </p>
-          <button type="submit" className="base-card-container">
-            <p>Buscar</p>
-          </button>
+          <SearchButton />
         </div>
       </div>
     </div>

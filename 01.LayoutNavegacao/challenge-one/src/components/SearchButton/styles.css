@@ -1,0 +1,17 @@
+.button-search-container {
+    display: flex;
+    justify-content: center;
+}
+.button-search-container button {
+  background-color: var(--main-color);
+  color: var(--emphasis-color);
+  border-radius: 5px;
+  width: 220px;
+  height: 40px;
+  border: none;
+}
+
+.button-search-container button p {
+  margin: 0;
+  font-size: 14px;
+}

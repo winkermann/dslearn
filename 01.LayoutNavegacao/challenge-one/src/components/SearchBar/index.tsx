@@ -1,3 +1,4 @@
+import SearchButton from '../SearchButton';
 import './styles.css';
 
 const SearchBar = () => {
@@ -13,9 +14,7 @@ const SearchBar = () => {
               placeholder="Digite sua busca"
               className="form-control"
             />
-            <button type="submit" className="base-card-container">
-              <p>Buscar</p>
-            </button>
+            <SearchButton />
           </form>
         </div>
       </div>

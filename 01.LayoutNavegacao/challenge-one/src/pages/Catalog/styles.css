@@ -1,0 +1,10 @@
+@media (min-width: 992) {
+  .catalog-container {
+    width: 930px;
+  }
+}
+@media (min-width: 1200px) {
+  .catalog-container {
+    width: 980px;
+  }
+}
